@@ -1,10 +1,279 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
     <title>Résumé</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <script defer src="script.js"></script>
 </head>
 <body>
-― Hello World! &#x1F609;
+<main>
+    <div class="resume">
+        <div class="container">
+            <div class="resume__block">
+                <h1 class="contact-info__header">Bulka</h1>
+                <h3 class="contact-info__sub-header">Senior Hooman Manager</h3>
+                <div class="contact_info_container fh">
+                    <div class="contact-info__block">
+                        <a class="contact-info__item" href="" rel="author">
+                            <div class="contact-info__item-icon-wrapper">
+                                <svg class="contact-info__item-icon" viewBox="0 0 384 512"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                            d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <span>Lviv, Ukraine</span>
+                        </a>
+                    </div>
+                    <div class="contact-info__block contact-info__block--center">
+                        <img alt="Avatar" class="contact-info__avatar" src="assets/avatar.png">
+                    </div>
+                    <div class="contact-info__block">
+                        <a class="contact-info__item" href="https://ua.linkedin.com/company/binary-studio_241166"
+                           rel="author">
+                            <div class="contact-info__item-icon-wrapper">
+                                <svg class="contact-info__item-icon" viewBox="0 0 448 512"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <span>binary-studio</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<div class="container">
+    <div class="resume__block">
+        <div class="intro">
+            <div class="intro__icon-wrapper">
+                <svg class="intro__icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                            d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
+                    </path>
+                </svg>
+            </div>
+            <p class="intro_text">Meow.
+                I am a Binary Studio cat. Still got 7 lives. Work in IT, Full Stack Evil,
+                all I do is sleep and try to help out hoomans with their projects whenever
+                they need me.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="resume__block">
+        <div class="skills">
+            <h3 class="skills__header">Skills</h3>
+            <p class="skills__text">Sleep, eat, more sleep, meow, mrrr, purr. </p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="resume__block">
+        <div class="main-info fh">
+            <div class="experiences"></div>
+            <div class="additional-info fv"></div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="experiences">
+        <h3 class="experiences__header">Experience</h3>
+        <div class="experiences__company">
+            <div class="experiences__company-header">
+                <span class="experiences__company-header-durability">For whole my life</span>
+                <h3 class="experiences__company-header-name">BinaryStudio</h3>
+            </div>
+            <div class="experiences__company-project">
+                <span class="experiences__company-project-role">Binary Studio Cat</span>
+                <h3 class="experiences__company-project-name">Hooman project</h3>
+                <ul class="experiences__company-project-responsibilities">
+                    <li>Supported hoomans</li>
+                    <li>Slept all the time</li>
+                    <li>Lied on the keyboard</li>
+                    <li>Watched my hoomans working</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="additional-info fv">
+        <div class="additional-info__education">
+            <h3 class="additional-info__education-header">Education</h3>
+            <div class="additional-info__education-university">
+                <span class="additional-info__education-university-durability">2021</span>
+                <h3 class="additional-info__education-university-speciality">Cat track</h3>
+                <p class="additional-info__education-university-name">Binary Studio Academy</p>
+            </div>
+        </div>
+        <div class="additional-info__languages">
+            <h3 class="additional-info__languages-header">Languages</h3>
+            <p class="additional-info__languages-item">
+                Meow dialect
+            </p>
+            <p class="additional-info__languages-item">
+                Ukrainian (understand)
+            </p>
+            <p class="additional-info__languages-item">
+                English (don't understand)
+            </p>
+        </div>
+    </div>
+</div>
+<header class="header">
+    <div class="cursor"></div>
+    <div class="container header-container">
+        <a class="logo" href="">
+            <svg height="20%" id="Layer_1" viewBox="0 0 512 512" width="70px"
+                 xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<circle cx="256" cy="256" r="256" style="fill:#FFDA44;"/>
+                <path d="M0,256C0,114.616,114.616,0,256,0s256,114.616,256,256" style="fill:#338AF3;"/>
+</svg>
+        </a>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="">Мої скіли👊</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Трохи про мене🙂</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Що я тут роблю🤔?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section-hero-heading">Це мені подобається😋!</a>
+                </li>
+            </ul>
+        </nav>
+        <a class="btn site-btn" href="https://t.me/f10th">
+            <span class="btn-description">Telegram</span>
+            <span class="btn-description-logo"></span>
+        </a>
+    </div>
+</header>
+<section class="hero">
+    <div class="container hero-container">
+        <h2 class="section-hero-heading">
+            Мої скіли
+        </h2>
+    </div>
+    <div class="container">
+        <h1 class="heading" data-target-resolver></h1>
+    </div>
+    <div class="container">
+        <div class="resume__block">
+            <div class="main-info fh">
+                <div class="experiences"></div>
+                <div class="additional-info fv"></div>
+            </div>
+        </div>
+    </div>
+    <section class="section-do">
+        <div class="container">
+            <ul class="section-do-list">
+                <li class="section-do-item">
+                    <div class="circular-progress">
+                        <div class="value-container">норм</div>
+                    </div>
+                    <strong class="section-do-item-heading">
+                        HTML
+                    </strong>
+                    <p class="section-do-item-description">
+                        Знаю номально теги, тири-пири, семантика.
+                        Так що тут проблем не має бути
+                    </p>
+                </li>
+                <li class="section-do-item">
+                    <div class="circular-progress-num-two">
+                        <div class="value-container-num-two">0%</div>
+                    </div>
+                    <strong class="section-do-item-heading">
+                        CSS
+                    </strong>
+                    <p class="section-do-item-description">
+                        Для того щоб зробити щось більш менш то нормально як на мене. Flex good. Grid little
+                    </p>
+                </li>
+                <li class="section-do-item">
+                    <div class="circular-progress-num-three">
+                        <div class="value-container-num-three">0%</div>
+                    </div>
+                    <strong class="section-do-item-heading">
+                        JS
+                    </strong>
+                    <p class="section-do-item-description">
+                        Вчив мови програмування тому щось знаю. Алгоритми та структури даних, ООП. Так що думаю ваш курс
+                        потяну. До речі, ці кружечки класно підгружаються якщо ви не побачили(просто перезагрузіть)
+                    </p>
+                </li>
+            </ul>
+            <h2 class="section-do-description-heading">Те що там не дописав ↑↑↑</h2>
+            <p class="section-do-description">
+                TypeScript, розумію, що до чого бо прочитав пару документація, подивився відео та трошки практикувався.
+                React/Redux
+                наче зайшли, але питань багато, тому залишу це на вас(хі-хі).PostgreSQL бачив та працював, з базам все
+                ок.
+                Звідки я то всьо знаю? Дуже просто, купив злиті курси SkillBox. Класика жанру - Фрілансер по життю та
+                багато іншого.
+                Вивчаю все це протягом 7 місяців.
+            </p>
+        </div>
+    </section>
+</section>
+<section class="hero">
+    <div class="container hero-container">
+        <h2 class="section-hero-heading">
+            Те що мені подобається ↓↓↓
+        </h2>
+        <a name="section-hero-heading"></a>
+        <div class="hero-offers">
+            <div class="section-hero-left-items">
+                <div class="section-hero-left-box top-box">
+                    <img alt="#" class="section-hero-img" src="img/main_01.jpg">
+                    <div class="hero-item-upper hero-item-upper-left">
+                        <strong class="section-hero-item-heading">
+                            Великий <br> теніс
+                        </strong>
+                        <br>
+                        <p class="section-hero-item-description">
+                            но тут тупо любов ...
+                        </p>
+                        <br>
+                    </div>
+                </div>
+                <div class="section-hero-left-box bottom-box">
+                    <img alt="#" class="section-hero-img" src="img/main_02.jpg">
+                    <div class="hero-item-upper hero-item-upper-right">
+                        <strong class="section-hero-item-heading">
+                            Шахи<br>
+                        </strong>
+                        <br>
+                        <p class="section-hero-item-description ">
+                            На chess.com 1300 рейтинга 😎
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-hero-right-box">
+                <img alt="#" class="section-hero-img" height="100%"  src="img/main_03.jpg">
+                <div class="hero-item-upper hero-item-position">
+                    <strong class="section-hero-item-heading bottom-heading">
+                        Тут<br> Вже просто<br> Класика
+                    </strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 </body>
 </html>
