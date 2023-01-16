@@ -263,9 +263,108 @@ header{
     font-size: 30px;
     line-height: 1.3;
     color: #787878;
+    padding-bottom: 30px;
 }
 .section-do-description{
     font-size: 16px;
     line-height: 1.4;
     color: #787878;
+}
+/* Section-Hero */
+.hero{
+    min-height: 600px;
+    margin-top: 70px;
+}
+.hero-container{
+    height: 100%;
+}
+.hero-container-content{
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-offers{
+    min-height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.section-hero-item-description, .section-hero-item-next{
+    display: inline-block;
+    margin-bottom: 47px;
+}
+.section-hero-item-description{
+    margin-top: 15px;
+}
+.section-hero-item-next{
+    margin-top: 47px;
+}
+.section-hero-left-box{
+    display: flex;
+    align-items: center;
+    min-height: 258px;
+    min-width: 573px;
+}
+.section-hero-right-box{
+    height: 540px;
+    min-width: 573px;
+    margin-left: 24px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.section-hero-right-box:hover .section-hero-img{
+    transform: scale(1.07);
+}
+.hero-item-position{
+    position: absolute;
+    bottom: 30px;
+}
+.section-hero-img{
+    position: absolute;
+    transition: transform .75s;
+}
+.top-box{
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.top-box:hover .section-hero-img{
+    transform: scale(1.07);
+}
+.hero-item-upper-left{
+    position: absolute;
+    bottom: 30px;
+}
+.bottom-box{
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.hero-item-upper-right{
+    position: absolute;
+    bottom: 30px;
+}
+.bottom-box:hover .section-hero-img{
+    transform: scale(1.07);
+}
+.section-hero-item-heading{
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.section-hero-item-description{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #FFFFFF;
+}
+.hero-item-upper{
+    margin-left: 45px;
 }
